@@ -14,7 +14,7 @@ public class GestorNotas {
         return media >= 5;
     }
 
-    // Método 3: devuelve la calificación en texto
+    // Método 3: devuelve la calificación
     public String notaTexto(double media) {
         if (media < 5) {
             return "Suspenso";
